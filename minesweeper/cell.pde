@@ -32,4 +32,13 @@ class Cell {
       }
     }
   }
+   //-1, -9, -10, -11, 1, 9, 10, 11
+  void count(int index){
+    Cell c = Cells.get(index);
+    if(c.x > 0 && c.x < 9){
+      if(c.mine){
+        
+      }
+    }
+  }
 }
